@@ -18,3 +18,5 @@ cd ~/dnsexit
 chmod 755 setup.py; chmod 755 ipUpdate.py
 sudo ./setup.py
 ```
+
+```sudo systemctl start dnsexit```
