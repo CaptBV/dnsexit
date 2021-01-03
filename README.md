@@ -12,9 +12,9 @@ in the host var in /etc/dnsexit.conf
 
 ## Install and configure ##
 ```
-cd /home/pi
+cd
 git clone https://github.com/CaptBV/dnsexit.git
-cd /home/pi/dnsexit
+cd ~/dnsexit
 chmod 755 setup.py; chmod 755 ipUpdate.py
 sudo ./setup.py
 ```
