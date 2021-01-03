@@ -2,8 +2,13 @@
 Dynamic DNS updating via DNSExit
 
 Many thanks to jhonnymonclair for his repo!
-This repo only contains a minor fix for updating just one A record: host2.example.com.
-Rather than: example.com;host1.example.com;host2.example.com in the host var in /etc/dnsexit.conf
+
+This repo only contains a minor fix for updating just <em>one</em> A record:
+```host2.example.com```
+
+Rather than:
+```example.com;host1.example.com;host2.example.com```
+in the host var in /etc/dnsexit.conf
 
 ## Install and configure ##
 ```
