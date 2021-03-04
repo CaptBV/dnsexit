@@ -8,7 +8,7 @@ This repo only contains a minor fix for updating just <em>one</em> A record:
 
 Rather than:
 ```example.com;host1.example.com;host2.example.com```
-in the host var in /etc/dnsexit.conf
+in the host var in /etc/dnsexit.conf. The conf file is created when running setup.py.
 
 ## Install and configure ##
 ```
